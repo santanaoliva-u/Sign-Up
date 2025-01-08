@@ -37,7 +37,7 @@ El diseño incluye un fondo llamativo, un área destacada para el logo, y un for
 
 1. Clona este repositorio:  
    ```bash
-   git clone http://www.github.com/santanaoliva_u/Sign-Up
+   git clone https://github.com/santanaoliva-u/Sign-Up.git
    cd Sign-Up
    ```
 
