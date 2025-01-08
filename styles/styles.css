@@ -1,0 +1,125 @@
+--root {
+  --createAccount: #596d48;
+  --inputs: #e5e7eb;
+  --fontRight: #f9fafb;
+  --fontMiddle: #ffffff;
+}
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 0;
+}
+
+.box-left {
+  background-image: url("../imgs/anime.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Asegura que .box-left ocupe toda la altura de la ventana */
+}
+
+.logo {
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  margin-top: 130px;
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin-bottom: auto;
+}
+
+.logo img{
+  height: 90%;
+}
+.box-left p {
+  color: white;
+}
+.logo h1{
+  font-family: "norsebold";
+  font-size: 90px;
+  margin: 0;
+}
+
+.logo-container > p{
+  width: 100%;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+}
+
+.logo-container a, .logo-container a:visited{
+  color: white;
+}
+
+
+.box-right {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.box-right > div {
+  display: flex;
+  justify-content: start;
+  padding-left: 2em;
+  padding-right: 3em;
+}
+.box-right .box1,
+.box3 {
+  background-color: var(--fontRight);
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em;
+}
+.box1 {
+  font-size: 1.5em;
+  padding-top: 2em;
+}
+.box-right .box2 {
+  background: #f9f9f9;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-section h2 {
+  margin-bottom: 10px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 1;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.submit{
+  background-color: #596d48;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: end;
+  width: 200px;
+  margin: 2em 0;
+}
